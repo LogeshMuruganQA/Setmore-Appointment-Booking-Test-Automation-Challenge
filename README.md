@@ -31,7 +31,7 @@ application using **Playwright** with **TypeScript**. It follows the **Page Obje
 ### Setup
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/LogeshMuruganQA/Setmore-Appointment-Booking-Test-Automation-Challenge.git
+git clone https://github.com/LogeshMuruganQA/Setmore-Automation-Challenge.git
 ```
 #### 2. Install dependencies
 ```bash
