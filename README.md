@@ -5,19 +5,22 @@ application using **Playwright** with **TypeScript**. It follows the **Page Obje
 ---
 ### Project Structure
 
-pages/                      # Page Object Models
- LoginPage.ts
- Calendar.ts
-tests/                      # Test specifications
- login.spec.ts
-utils/                      # Utilities (e.g. random date)
- date.ts
-.env                        # Environment secrets (ignored)
-.env.example                # Template for .env file
-playwright.config.ts        # Playwright config
-tsconfig.json               # TypeScript config
-package.json                # NPM dependencies
-README.md
+- pages/                      # Page Object Models
+- LoginPage.ts
+- Calendar.ts
+
+- tests/                      # Test specifications
+- login.spec.ts
+
+- utils/                      # Utilities (e.g. random date)
+- date.ts
+ 
+- .env                        # Environment secrets (ignored)
+- .env.example                # Template for .env file
+- playwright.config.ts        # Playwright config
+- tsconfig.json               # TypeScript config
+- package.json                # NPM dependencies
+- README.md
 ---
 ### Tech Stack
 - **Playwright** End-to-end test runner
