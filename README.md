@@ -1,1 +1,0 @@
-# Setmore-Appointment-Booking-Test-Automation-Challenge
