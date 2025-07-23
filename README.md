@@ -1,9 +1,9 @@
-# Setmore E2E Test Automation
+### Setmore E2E Test Automation
 This project automates end-to-end testing of the [Setmore](https://www.setmore.com/) web
 application using **Playwright** with **TypeScript**. It follows the **Page Object Model
 (POM)** pattern for scalability and maintainability.
 ---
-## Project Structure
+### Project Structure
 setmore-automation/
 ├── pages/ # Page Object Models
 │ ├── LoginPage.ts
@@ -19,23 +19,23 @@ setmore-automation/
 ├── package.json # NPM dependencies
 └── README.md
 ---
-## Tech Stack
+### Tech Stack
 - **Playwright** End-to-end test runner
 - **TypeScript** Static typing
 - **Dotenv** Environment variable management
 - **POM (Page Object Model)** Clean page interaction abstraction
 ---
-## Setup
-### 1. Clone the repository
+### Setup
+#### 1. Clone the repository
 ```bash
 git clone https://github.com/LogeshMuruganQA/Setmore-Appointment-Booking-Test-Automation-Challenge.git
 ```
-### 2. Install dependencies
+#### 2. Install dependencies
 ```bash
 npm install
 ```
 ---
-## Environment Configuration
+### Environment Configuration
 Create a `.env` file from the example:
 ```bash
 cp .env.example .env
@@ -47,18 +47,18 @@ SETMORE_PASSWORD=your-password
 ```
 > Never commit `.env` to Git.
 ---
-## Run Tests
-### In headed (UI) mode
+### Run Tests
+#### In headed (UI) mode
 ```bash
 npx playwright test --headed
 ```
 ---
-## HTML Report
+### HTML Report
 ```bash
 npx playwright show-report
 ```
 ---
-## Folder Summary
+### Folder Summary
 | Path/File | Description |
 |---------------------------|------------------------------------------|
 | `pages/` | Page Object Models (LoginPage, Calendar) |
@@ -68,7 +68,7 @@ npx playwright show-report
 | `.env.example` | Safe reference template |
 | `playwright.config.ts` | Global Playwright config |
 ---
-## Example Login Test
+### Example Login Test
 ```ts
 test('should login successfully', async ({ page }) => {
  const loginPage = new LoginPage(page);
@@ -78,12 +78,12 @@ test('should login successfully', async ({ page }) => {
 });
 ```
 ---
-## Security Best Practices
+### Security Best Practices
 - `.env` is in `.gitignore` dont commit secrets
 - Always use `.env.example` for shared configs
 - Use GitHub Actions secrets for CI/CD
 ---
-## Useful Commands
+### Useful Commands
 | Command | Description |
 |----------------------------------|-------------------------------------|
 | `npx playwright test` | Run all tests |
