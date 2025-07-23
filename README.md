@@ -28,8 +28,7 @@ setmore-automation/
 ## Setup
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/setmore-automation.git
-cd setmore-automation
+git clone https://github.com/LogeshMuruganQA/Setmore-Appointment-Booking-Test-Automation-Challenge.git
 ```
 ### 2. Install dependencies
 ```bash
@@ -49,17 +48,9 @@ SETMORE_PASSWORD=your-password
 > Never commit `.env` to Git.
 ---
 ## Run Tests
-### All tests (headless)
-```bash
-npx playwright test
-```
 ### In headed (UI) mode
 ```bash
 npx playwright test --headed
-```
-### Specific test
-```bash
-npx playwright test tests/login.spec.ts
 ```
 ---
 ## HTML Report
